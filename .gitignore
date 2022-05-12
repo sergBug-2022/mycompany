@@ -1,0 +1,5 @@
+venv/
+.idea/
+Lib/
+react-client/node_modules
+react-client/git_old
