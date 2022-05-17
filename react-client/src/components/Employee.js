@@ -167,6 +167,7 @@ export class Employee extends Component {
                     show={this.state.addModalEmpShow}
                     onHide={addModalEmpClose}
                     cls_func={this.output}
+                    deps={this.state.deps}
                     />
                 </ButtonToolbar>
             </div>

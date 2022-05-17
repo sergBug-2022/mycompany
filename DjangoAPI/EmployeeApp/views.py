@@ -78,6 +78,7 @@ def employee_api(request, emp_id=0):
 def save_file(request):
     file = request.FILES['myFile']
     file_name = default_storage.save(file.name, file)
+    print(f'file_name ={file_name}')
     return JsonResponse(file_name, safe=False)
 
 
